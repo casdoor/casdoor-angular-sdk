@@ -1,0 +1,7 @@
+<select id="loginMethod" className="login-select">
+  <option value="signin">Signin</option>
+  <option value="popupSignin">PopupSignin</option>
+</select>
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+  <button>Login</button>
+</form>
